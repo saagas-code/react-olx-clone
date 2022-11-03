@@ -1,0 +1,84 @@
+:root {
+    --background-light : #F0F2FA;
+    --background-white : #F6F5FF;
+    --text-dark: #0A0040;
+    --color-primary: #6143FF;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+
+.PageContainer {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+}
+.accountMenu {
+    height: 300px;
+    width: 300px;
+}
+.accountMenu ul {
+    display: flex !important;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 100%;
+}
+.accountMenu li {
+    width: 100%;
+    padding: 10px;
+    padding-left: 20px;
+    border-radius: 100px;
+    margin-bottom: 1px;
+    color: #4A4A4A;
+    font-size: 18px;
+    display: flex;
+    cursor: pointer;
+}
+.accountMenu li:hover {
+    color: rgb(110, 10, 214);
+}
+.accountMenu li div {
+
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.accountMenu img { 
+    width: 30px;
+    height: 30px;
+    background-color: gray;
+    margin-left: 15px;
+}
+
+.accountMenu span {
+    margin: 0px 10px;
+}
+
+
+
+.homeContainer {
+    padding: 20px;
+    flex: 1;
+}
+.PageArea {
+
+}
+.PageArea h2 {
+    font-size: 20px;
+}
+.PageArea h3 {
+    font-size: 12px;
+    color: #999999;
+    
+}
+
+.itemContainer {
+    background-color: #ffffff;
+    width: 100%;
+    padding: 20px;
+    box-shadow: rgb(0 0 0 / 8%) 0px 4px 16px 0px, rgb(0 0 0 / 6%) 0px 2px 4px 0px;
+}

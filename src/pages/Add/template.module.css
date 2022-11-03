@@ -1,0 +1,107 @@
+:root {
+    --background-light : #F0F2FA;
+    --background-white : #F6F5FF;
+    --text-dark: #0A0040;
+    --color-primary: #6143FF;
+}
+.signinContainer {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.PageTitle {
+    font-size: 27px;
+}
+
+.PageArea {
+
+}
+
+.signinContainer form {
+    background-color: #FFF;
+    border-radius: 3px;
+    padding: 10px;
+    box-shadow: 0px 0px 3px #999;
+}
+
+.area {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    max-width: 500px;
+}
+.areaTitle {
+    width: 200px;
+    text-align: right;
+    padding-right: 20px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.areaInput {
+    flex: 1;
+}
+.areaInputCheck {
+
+} 
+.areaInput input, .areaInput select, .areaInput textarea {
+    width: 100%;
+    font-size: 14px;
+    padding: 5px;
+    border: 1px solid #DDD;
+    border-radius: 3px;
+    outline: 0;
+    transition: all ease .2s;
+}
+input:focus {
+    border:1px solid #333;
+}
+.areaInput textarea {
+    height: 150px !important;
+    width: 100% !important;
+    resize: none;
+}
+
+.areaInput button {
+    background-color: #0089FF;
+    border: 0;
+    outline: 0;
+    padding: 5px 10px;
+    border-radius: 4px;
+    color: #FFF;
+    font-size: 15px;
+    cursor: pointer;
+}
+.areaInput button:hover {
+    background-color: #006FCE;
+}
+
+.ErrorMessage {
+
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #FFCACA;
+    color: #000;
+    border: 2px solid #FF0000;
+}
+
+
+@media (max-width:600px) {
+    .PageArea form {
+
+    }
+    .PageArea form .area {
+        flex-direction: column;
+    }
+    .areaTitle {
+        width: 100%;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+    .areaInput {
+        width: 100%;
+    }
+    .button {
+        width: 100%;
+        padding: 10px;
+    }
+}

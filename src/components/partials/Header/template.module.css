@@ -1,0 +1,132 @@
+.HeaderArea {
+    height: 60px;
+    width: 100vw;
+    background-color: #FFF;
+    border-bottom: 1px solid #CCC;
+}
+
+.container {
+    max-width: 1000px;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    
+}
+
+.logo {
+    flex: 1;
+    display:flex;
+    align-items: center;
+    height: 60px;
+    position: relative;
+}
+.logo_1,
+.logo_2,
+.logo_3 {
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.logo_1 {color:red}
+.logo_2 {color:#00FF00}
+.logo_3 {color:#0000FF}
+
+.menuMobile {
+    position: absolute;
+    right: 20px;
+    top: 2px;
+    border: 0;
+    cursor: pointer;
+    display: none;
+    background-color: transparent;
+}
+.menuMobile img {
+    display: relative;
+    width: 30px;
+    height: 30px;
+}
+
+.navHeader {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    height: auto;
+    
+} 
+nav ul, nav li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    
+}
+nav li {
+    margin: 0px 20px;
+}
+
+nav a {
+    color: #000;
+    font-size: 14px;
+}
+nav li:hover, nav li button:hover {
+    color: #999;
+    
+}
+nav button {
+    border: 0;
+    background-color: transparent;
+    color: #000;
+    font-size: 14px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all ease .2s;
+}
+
+nav .button {
+    background-color: #FF8100;
+    border-radius: 4px;
+    color: #FFF;
+    padding: 5px 10px;
+
+}
+nav .button:hover {
+    background-color: #E57706;
+    color: #FFF;
+}
+
+
+@media (max-width:600px) {
+    .container {
+        height: auto;
+        flex-direction: column;
+        
+    }
+    .HeaderArea {
+        height: auto;
+    }
+    .menuMobile {
+        display: block;
+    }
+    .logo {
+        justify-content: center;
+        margin: 10px 0;
+    }
+    .navHeader {
+        padding: 0px 0px;
+        display: block;
+    }
+    nav ul {
+        flex-direction: column;
+        transition: all ease .3s;
+        position: relative;
+    }
+    nav li {
+        margin: 10px 20px;
+    }
+}

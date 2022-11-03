@@ -1,0 +1,90 @@
+.homeContainer {
+    padding: 20px;
+    flex: 1;
+    position: relative;
+}
+.PageArea {
+
+}
+.PageArea h2 {
+    font-size: 20px;
+}
+.PageArea h3 {
+    font-size: 12px;
+    color: #999999;
+    
+}
+
+.itemContainer {
+    background-color: #ffffff;
+    width: 100%;
+    padding: 20px;
+    box-shadow: rgb(0 0 0 / 8%) 0px 4px 16px 0px, rgb(0 0 0 / 6%) 0px 2px 4px 0px;
+}
+
+.area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    max-width: 500px;
+}
+.areaTitle {
+    width: 100%;
+    text-align: left;
+    padding-right: 20px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.areaInput {
+    width: 100% ;
+    margin-top: 8px;
+}
+.areaInput input {
+    border: 1px solid #DDD;
+    font-size: 16px;
+    border-radius: 4px;
+    outline: 0 !important;
+    padding: 11px 2px 12px 16px;
+    width: 100% !important;
+}
+.areaInput select {
+    margin-bottom: 20px;
+}
+
+.accountButton {
+    width: 100%;
+    text-align: left;
+}
+
+.accountButton button {
+    line-height: 24px;
+    font-size: 16px;
+    height: 48px;
+    min-width: 120px;
+    border-width: 0px;
+    border-radius: 32px;
+    background-color: rgb(247, 131, 35);
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 200px;
+    padding: 0px 8px;
+}
+.accountButton button:hover {
+    opacity: .8;
+}
+
+
+
+.alertContainer {
+    position: fixed;
+    left: 10px;
+    bottom: 10px;
+    background-color: transparent;
+    width: 100%;
+    transition: all ease .7s;
+
+}

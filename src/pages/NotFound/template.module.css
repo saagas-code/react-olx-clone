@@ -1,0 +1,12 @@
+:root {
+    --background-light : #F0F2FA;
+    --background-white : #F6F5FF;
+    --text-dark: #0A0040;
+    --color-primary: #6143FF;
+}
+.homeContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
