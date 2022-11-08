@@ -26,7 +26,7 @@ Estilização do projeto feita inteiramente em [CSS-MODULES](https://create-reac
 $ npm install
 $ npm start
 ```
-Para rodar o Projeto é necessário estar rodando o [Back-END](https://github.com/saagas-code/NodeJS-GAME3RB-Clone/) do Projeto.
+Para rodar o Projeto é necessário estar rodando o [Back-END](https://github.com/saagas-code/node-api-olx-clone) do Projeto.
 
 ## License
 © [SaagaS](https://github.com/SaagaS0)
